@@ -142,7 +142,7 @@
         <!-- ......latest news -->
         <section class="my-24">
             <h3 class="text-5xl font-semibold text-center mb-12">Latest Bikes</h3>
-            <div class="grid gap-5grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            <div class="grid gap-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                 <div class="card bg-base-100 shadow-xl">
                     <figure><img src="/images/others/latest1.png" alt="Shoes" /></figure>
                     <div class="card-body">
@@ -153,23 +153,23 @@
                       </div>
                     </div>
                   </div>
-                <div class="card w-96 bg-base-100 shadow-xl">
+                <div class="card bg-base-100 shadow-xl">
                     <figure><img src="/images/others/latest2.png" alt="Shoes" /></figure>
                     <div class="card-body">
-                      <h2 class="card-title text-3xl">Ducati XDIAVEL s-73!</h2>
+                      <h2 class="card-title text-3xl">Motorcycles & Scooters</h2>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                       <div class="card-actions">
-                        <button class="btn btn-primary">Buy Now</button>
+                        <button class="btn bg-bike-primary text-white uppercase">Buy Now</button>
                       </div>
                     </div>
                   </div>
-                <div class="card w-96 bg-base-100 shadow-xl">
+                <div class="card bg-base-100 shadow-xl">
                     <figure><img src="/images/others/latest3.png" alt="Shoes" /></figure>
                     <div class="card-body">
-                      <h2 class="card-title text-3xl">Ducati XDIAVEL s-73!</h2>
+                      <h2 class="card-title text-3xl">2021 Honda CBR500R</h2>
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                       <div class="card-actions">
-                        <button class="btn btn-primary">Buy Now</button>
+                        <button class="btn bg-bike-primary text-white uppercase">Buy Now</button>
                       </div>
                     </div>
                   </div>
@@ -236,46 +236,71 @@
         </section>
         <!-- ......FAQ...... -->
         <section class="my-24">
-            <h3 class="text-5xl font-semibold text-center mb-12">Happy <span class="text-bike-primary">Clients Says</span></h3>
-            <div class="hero min-h-screen ">
-                <div class="hero-content flex-col lg:gap-24 lg:flex-row-reverse">
-                  <img src="/images/others/faq.png" class="lg:max-w-sm w-1/2 rounded-lg shadow-2xl" />
-                  <div>
-                    <div class="collapse collapse-arrow ">
-                        <input type="radio" name="my-accordion-2" checked="checked" /> 
-                        <div class="collapse-title text-xl font-medium">
-                          Click to open this one and close others
-                        </div>
-                        <div class="collapse-content"> 
-                          <p>hello</p>
-                        </div>
-                      </div>
-                      <div class="collapse collapse-arrow ">
-                        <input type="radio" name="my-accordion-2" /> 
-                        <div class="collapse-title text-xl font-medium">
-                          Click to open this one and close others
-                        </div>
-                        <div class="collapse-content"> 
-                          <p>hello</p>
-                        </div>
-                      </div>
-                      <div class="collapse collapse-arrow ">
-                        <input type="radio" name="my-accordion-2" /> 
-                        <div class="collapse-title text-xl font-medium">
-                          Click to open this one and close others
-                        </div>
-                        <div class="collapse-content"> 
-                          <p>hello</p>
-                        </div>
-                      </div>
+            <h3 class="text-5xl font-semibold text-center mb-12">Frequently Asked <span class="text-bike-primary"> Questions</span></h3>
+            <div class="hero min-h-screen">
+              <div class="hero-content flex-col lg:gap-24 lg:flex-row">
+                <img src="/images/others/faq.png" class="lg:max-w-sm w-1/2 rounded-lg shadow-2xl" />
+                <div>
+                  <div class="collapse collapse-arrow ">
+                    <input type="radio" name="my-accordion-2" checked="checked" /> 
+                    <div class="collapse-title text-xl font-medium">
+                      What are the most important things I should
+                      know about riding a bike?
+                    </div>
+                    <div class="collapse-content"> 
+                      <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-arrow ">
+                    <input type="radio" name="my-accordion-2" /> 
+                    <div class="collapse-title text-xl font-medium">
+                      How can I tell if my helmet is old and I need a new one?
+                    </div>
+                    <div class="collapse-content"> 
+                      <p>hello</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-arrow ">
+                    <input type="radio" name="my-accordion-2" /> 
+                    <div class="collapse-title text-xl font-medium">
+                      My bike has been in storage is it safe to ride?
+                    </div>
+                    <div class="collapse-content"> 
+                      <p>hello</p>
+                    </div>
+                  </div>
+                  <div class="collapse collapse-arrow ">
+                    <input type="radio" name="my-accordion-2" /> 
+                    <div class="collapse-title text-xl font-medium">
+                      What rules should I follow when riding my bike?
+                    </div>
+                    <div class="collapse-content"> 
+                      <p>hello</p>
+                    </div>
                   </div>
                 </div>
               </div>
+            </div>      
         </section>
-
-
     </main>
 
+    <!-- ....footer..... -->
+    <footer class="footer p-10 bg-neutral text-neutral-content">
+      <aside>
+       <p>Download Now</p>
+       <p>License</p>
+       <p>© 2020 bike. All rights reserved</p>
+      </aside> 
+      <nav>
+        <header class="footer-title">Get the App</header> 
+        <div class="grid grid-cols-1 gap-4">
+          <a><img class="w-36" src="/images/others/android.png" alt=""></a> 
+          <a><img class="w-36" src="/images/others/ios.png" alt=""></a> 
+          
+        </div>
+      </nav>
+    </footer>
+  
     
 </body>
 </html>
